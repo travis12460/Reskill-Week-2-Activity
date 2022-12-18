@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding: 2em;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.navigation-contact {
+    display: grid;
+    grid-template-columns: repeat(8, 2fr);
+    margin-bottom: 40px;
+}
+
+.navigation-contact nav {
+    grid-column-start: 5;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 120px;
+    height: 52px;
+}
+
+.cart {
+    width: 35px;
+    height: 35px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.intro h1 {
+    margin-bottom: 15px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(5, 3fr);
+    grid-template-rows: auto;
+    margin-bottom: 100px;
+}
+
+.potion {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.potion button {
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 70px;
+    height: 30px;
+    align-self: center;
+    background-color: rgb(95, 95, 95);
+    color: white;
+}
+
+.potion button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#special img {
+    width: 198px;
+    height: 293px;
+}
+
+.potion img {
+    align-self: center;
+    width: 263px;
+    height: 294px;
+}
+
+.potion h3 {
+    align-self: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+.footer img {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.title h1, p {
+    align-self: center;
+}
+
+input, textarea, select {
+    margin: 2px;
+}
+
+fieldset {
+    border: none;
+    background-color: whitesmoke;
+}
